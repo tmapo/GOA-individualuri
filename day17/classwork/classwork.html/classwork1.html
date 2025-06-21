@@ -1,0 +1,38 @@
+<!--classwork 1 : შექმენი სარეგისტრაციო ფორმა. მომხარებელს შემოატანინე ემაილი, 
+პაროლი და სახელი. თითოეულ input-ს უნდა ჰქონდეს type, name, id, 
+placeholder, required ატრიბუტები. გამოიყენე  <label> თეგი და მასში for ატრიბუტი.
+გამოიყენე <br> თეგი.-->
+<!--Classwork 2 : შექმენი  სარეგისტრაციო  ასევე რეგისტრაცია  ფორმა სადაც  დაამატებ არჩევანს, რომ მომხარებელს შეეძლოს საცხოვრებელი ქალაქის არჩევა.(მინიმუმ 5 ქალაქი)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register.com</title>
+</head>
+<body>
+    <lebel for="First name">Enter your first name : </lebel><br>
+    <input type="text" id="first name" name="first name" placeholder="Jeff" required ><br><br>
+
+    <label for="Last name">Enter your last name : </label><br>
+    <input type="text" id="last name" name="last name" placeholder="Bezos" required><br><br>
+
+    <label for="Birth date">Enter your birth date (Must be at least 20 yaers old) : </label><br>
+    <input type="date" min="1950-01-01" max="2015-06-21" id="birth date" name="birth date" required><br><br>
+
+    <label for="Email">Enter Email (Be able to recieve news from us on your email) : </label><br>
+    <input type="email" id="email" name="email" placeholder="preferable"><br><br>
+
+    <label for="City">Enter the city you live in : </label>
+    <select id="city" name="city" required>
+        <option value=" "> </option>
+        <option value="Tbilisi">Tbilisi</option>
+        <option value="Axalcixe">Axalcixe</option>
+        <option value="Batumi">Batumi</option>
+        <option value="Bakuriani">Bakuriani</option>
+        <option value="Gori">Gori</option>
+    </select>
+    
+</body>
+</html>
