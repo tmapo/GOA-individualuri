@@ -1,0 +1,30 @@
+ul {
+    margin: 100px auto;
+    width: 300px;
+    background-color: white;
+    color: black;
+    padding: 50px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+
+li{
+    padding: 50px;
+    border-radius: 15px;
+    border: none;
+    transition:  background-color 0.3s ease, color 0.3s ease;
+}
+   
+li:hover{
+    background-color: rgb(8, 119, 255);
+    color: white;
+}
+
+li:active{
+    background-color: rgb(8, 119, 255) ;
+    color:white
+}

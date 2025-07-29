@@ -1,0 +1,33 @@
+.red_bg {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.img1 {
+    display: flex;
+    justify-content: center;
+    height: 50px
+}
+.img2 {
+    display: flex;
+    height: 300px;
+    border-radius: 20px;
+}
+.hv_button {
+    display: flex;
+    justify-content: center;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+
+.hv_button:hover {
+    background-color: #0059ff;
+}

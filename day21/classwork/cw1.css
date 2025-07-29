@@ -1,0 +1,40 @@
+.Yt_music {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    border: none;
+    margin: 15px;
+    font-size: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Yt_music:hover {
+    background-color: red;
+    color: white;
+    font-size: 30px ;
+}
+
+.Yt_music:active {
+    background-color: red;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px
+}
+h3 {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+

@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.h01 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #777;
+    margin: 5px 0;
+}
+
+
+.Button {
+    margin-top: 20px;
+}
+
+
+.CM {
+    background-color: #3498db;
+    color: rgb(30, 255, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+.CM:hover {
+    background-color: #2980b9;
+}
